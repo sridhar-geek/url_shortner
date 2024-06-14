@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Header Styles */
+    .header {
+        @apply flex justify-between items-center 
+    }
+    .navBtn {
+        @apply  px-5 py-2 rounded-full bg-primary-dark text-white font-bold hover:bg-primary-light hidden md:flex
+    }
+    .navigation {
+        @apply text-textColor hover:text-black cursor-pointer font-bold text-sm lg:text-lg hidden md:flex
+    }
+
+    /* Footer Style */
+    .footerNav{
+        @apply flex flex-col gap-2 text-textColor font-medium text-sm
+    }
+    .footerHeading{
+        @apply  hover:text-textColor cursor-pointer text-white font-bold text-lg
+    }
+    .icons{
+        @apply hover:scale-125 duration-300 cursor-pointer
+    }
+}
