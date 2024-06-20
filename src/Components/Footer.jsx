@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-footerColor text-white">
       {/* Main Container which holds grid elements */}
       <div
-        className="py-8 mx-8 md:mx-14 lg:mx-28  flex flex-col text-center gap-10 items
+        className=" margin py-8 flex flex-col text-center gap-10 items
        md:grid md:gap-5 md:grid-cols-8"
       >
         {/* App Name */}

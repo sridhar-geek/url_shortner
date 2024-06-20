@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+    .margin{
+        @apply mx-8 md:mx-14 lg:mx-28
+    }
     /* Header Styles */
     .header {
         @apply flex justify-between items-center 
@@ -15,6 +18,16 @@
     }
     .navigation {
         @apply text-textColor hover:text-black cursor-pointer font-bold text-sm lg:text-lg hidden md:flex
+    }
+    /* Statisics */
+    .card{
+        @apply  rounded-md py-16 px-6 text-center bg-white relative
+    }
+    .imageHolder{
+        @apply absolute bg-backgroundColor rounded-full p-5 top-[-40px] left-36 sm:left-10
+    }
+    .cardHead {
+        @apply text-2xl font-medium mb-3
     }
 
     /* Footer Style */

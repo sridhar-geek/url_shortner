@@ -4,13 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:{
+        primary: {
           light: "#8CDBDD",
           dark: "#2bd0d0",
         },
-        backgroundColor:"#3a3053",
+        backgroundColor: "#3a3053",
         textColor: "#B5C0D0",
-        footerColor:'#232027',
+        footerColor: "#232027",
+        categoryBg: "#e2e6eb",
       },
     },
   },

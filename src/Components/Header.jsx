@@ -4,7 +4,7 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <>
-      <header className="header py-8 mx-8 md:mx-14 lg:mx-28 ">
+      <header className="header py-8 margin">
         <nav className="header gap-10">
           <img
             src="images/logo.svg"
