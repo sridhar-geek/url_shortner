@@ -1,8 +1,39 @@
-# React + Vite
+# Frontend Mentor - QR code component solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [URL Shortner challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
+Frontend Mentor have numerous challenges to help improve coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+  ### It is Url Shortner. Used to shortnen the URL and give the user to copy the short and crispy URL.
+### Screenshot
+
+![](./public/Screenshot%20url_shortner.png)
+
+### Links
+
+- GitHub URL: [Code](https://github.com/sridhar-geek/url_shortner)
+- Site URL: [Demo](https://sridhar-geek.github.io/QR_code/)
+
+
+### Built with
+
+- React.js
+- Tailwind CSS
+- Tiny Url API
+
+## Author
+
+- Frontend Mentor - [@sridhar-geek](https://www.frontendmentor.io/profile/sridhar-geek)
+
+
+## Acknowledgments
+

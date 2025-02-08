@@ -1,3 +1,23 @@
+const footerIcons = [
+  {
+    src: "images/icon-facebook.svg",
+    alt: "facebook",
+  },
+  {
+    src: "images/icon-twitter.svg",
+    alt: "twitter",
+  },
+  {
+    src: "images/icon-pinterest.svg",
+    alt: "pinterest",
+  },
+];
+const navElements = [
+  ["Features", "Link Sharing", "Branded Links", "Analytics"],
+  ["Resources", "Blog", "Developers", "Support"],
+  ["Company", "Our Team", "Carrers", "Contact"],
+];
+
 const Footer = () => {
   return (
     <footer className="bg-footerColor text-white">
@@ -11,43 +31,20 @@ const Footer = () => {
           Shortly
         </div>
         {/* Nav Elements */}
-        <div className="footerNav">
-          <h3 className="footerHeading">Features</h3>
-          <p>Link Sharing</p>
-          <p>Branded Links</p>
-          <p>Analytics</p>
-        </div>
-        <div className="footerNav">
-          <h3 className="footerHeading">Resources</h3>
-          <p>Blog</p>
-          <p>Developers</p>
-          <p>Support</p>
-        </div>
-        <div className="footerNav">
-          <h3 className="footerHeading">Company</h3>
-          <p>About</p>
-          <p>Our Team</p>
-          <p>Careers</p>
-          <p>Conatact</p>
-        </div>
+        {navElements.map((elements, index) => (
+          <div key={index} className="footerNav">
+            <h3 className="footerHeading">{elements[0]}</h3>
+            <p>{elements[1]}</p>
+            <p>{elements[2]}</p>
+            <p>{elements[3]}</p>
+          </div>
+        ))}
+
         {/* Social Icons */}
         <div className="col-start-7 col-end-8 justify-center flex items-center gap-4">
-          <img
-            src="images/icon-facebook.svg"
-            alt="facebook"
-            className="icons"
-          />
-          <img src="images/icon-twitter.svg" alt="twitter" className="icons" />
-          <img
-            src="images/icon-pinterest.svg"
-            alt="pinterest"
-            className="icons"
-          />
-          <img
-            src="images/icon-instagram.svg"
-            alt="instagram"
-            className="icons"
-          />
+          {footerIcons.map((icon, index) => (
+            <img key={index} src={icon.src} alt={icon.alt} className="icons" />
+          ))}
         </div>
       </div>
       <p className="text-center pb-3">© 2024 Shortly. All rights reserved.</p>
