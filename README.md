@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [URL Shortner challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
+This is a solution to the [URL Shortner challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). 
 Frontend Mentor have numerous challenges to help improve coding skills by building realistic projects. 
 
 ## Table of contents
@@ -21,7 +21,7 @@ Frontend Mentor have numerous challenges to help improve coding skills by buildi
 ### Links
 
 - GitHub URL: [Code](https://github.com/sridhar-geek/url_shortner)
-- Site URL: [Demo](https://sridhar-geek.github.io/QR_code/)
+- Site URL: [Demo](https://urlshortner-ten-gules.vercel.app/)
 
 
 ### Built with
